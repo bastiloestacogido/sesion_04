@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+:root {
+    --bs-body-font-family: "Noto Sans", sans-serif;
+}
 nav {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(0.5rem);
 }
 .active:before {
@@ -14,4 +21,8 @@ nav {
 #img {
     background: url(https://picsum.photos/id/47/4272/2848?blur=2) no-repeat left top;
     background-size: cover;
+}
+div p input {
+    float: right;
+    margin-top: 0.5rem;
 }
