@@ -1,0 +1,17 @@
+nav {
+    backdrop-filter: blur(0.5rem);
+}
+.active:before {
+    content: "→ ";
+}
+
+@media (min-width: 992px) {
+    .active:before {
+        content: "↓ ";
+    }
+}
+
+#img {
+    background: url(https://picsum.photos/id/47/4272/2848?blur=2) no-repeat left top;
+    background-size: cover;
+}
